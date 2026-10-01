@@ -657,7 +657,6 @@ var NAV = [
     ['portfolio', 'Portfolio'],
     ['about', 'About'],
     ['faq', 'FAQ'],
-    ['booking', 'Book online'],
     ['contact', 'Contact']
 ];
 
