@@ -640,7 +640,7 @@ $('#cx').addEventListener('click', function () {
 });
 
 // ---------- 6. ROUTER, MENU, THEME AND LISTENERS ----------
-// PG = which sections each page shows. NAV = menu links (Admin shows only for the owner).
+// PG = which sections each page shows. NAV = menu links.
 var PG = {
     home: ['hero', 'peek', 'about', 'msg', 'rev', 'visit'],
     services: ['shead', 'slist', 'memb', 'pol'],
