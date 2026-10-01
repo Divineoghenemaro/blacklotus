@@ -3,9 +3,7 @@
 // Everything the browser runs is in this file, in this order:
 //   1 settings and helpers      2 pictures and default content
 //   3 public pages              4 Supabase (read-only)
-//   5 forms, reviews and chat   6 router, menu, theme and event listeners
-//   (The admin page has its own file: js/admin.js)
-// =====================================================
+//   5 forms, reviews and chat   6 router, menu, theme and event listeners  =====================================================
 
 // ---------- 1. SETTINGS AND HELPERS ----------
 // Shop phone, email and WhatsApp number (change them here). $ is short for "find one element on the page".
