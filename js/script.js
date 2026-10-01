@@ -587,7 +587,7 @@ function bot(q) {
     q = q.toLowerCase();
     var h = [
         [
-            /hi/,
+            /Hi|hi|Hello|hello|how are you?/,
             'Hello, how can I assist you?'
         ],
         [
