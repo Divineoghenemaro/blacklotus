@@ -285,7 +285,7 @@ R.contact = function () {
         + INP + '"></textarea></div><div><button class="' + B1 + ' w-full sm:w-auto" type="submit" id="sb">Send</button><p id="fm" class="mt-3 text-sm text-red-600" role="alert"></p></div></form></div><div><div class="'
         + CARD + ' mb-6"><p class="flex items-start gap-2 font-bold"><span class="text-pink-600">'
         + ic('pin') + '</span>113 Young Drive, Lexington, NC 27292</p><p class="mt-3"><a class="font-bold underline" href="tel:'
-        + PH + '">' + PHD + '</a></p><p class="mt-3"><a class="underline" href="https://www.tiktok.com/@iammrdoe">Follow us on TikTok @iammrdoe</a></p></div>'
+        + PH + '">' + PHD + '</a></p><p class="mt-3"><a class="underline" href="https://www.tiktok.com/@iammrdoe">Follow us on TikTok</a></p></div>'
         + H.map(row).join('') + '</div></div>')
 };
 
