@@ -349,7 +349,6 @@ document.addEventListener('input', function (e) {
 
 // ---------- 4. SUPABASE BACKEND (read-only for visitors) ----------
 // Connects only when config.js has a URL and key. Otherwise the site runs on the default content.
-// Editing content happens on the separate hidden admin page, not here.
 var CFG = window.BL_CFG || {},
     SB = null;
 
