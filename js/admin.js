@@ -2,9 +2,7 @@
 // ADMIN PAGE SCRIPT
 // Runs only on the hidden admin page. You sign in with your
 // Supabase email and password, then edit services, team,
-// portfolio, FAQ and reviews (including photos).
-// Files used: config.js, js/content.js (default content), this file.
-// =====================================================
+// portfolio, FAQ and reviews (including photos). =====================================================
 
 // ---------- 1. SETUP ----------
 
