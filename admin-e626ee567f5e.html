@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Keep this page out of search engines. Share its address only with people who should edit the site. -->
+<meta name="robots" content="noindex, nofollow">
+<title>Admin | Black Lotus</title>
+<!-- Fonts (Google Fonts) -->
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
+<!-- Our own styles -->
+<link rel="stylesheet" href="css/style.css">
+<!-- Supabase settings: edit config.js -->
+<script src="config.js"></script>
+<!-- Supabase library -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- Theme and Tailwind settings (must come after Tailwind) -->
+<script src="js/init.js"></script>
+</head>
+<body class="bg-neutral-50 font-sans text-neutral-900 antialiased dark:bg-neutral-950 dark:text-neutral-100">
+<!-- ADMIN CONTENT: js/admin.js draws the login form or the editor in here -->
+<main id="admin" class="mx-auto max-w-4xl px-5 py-10"><p>Loading...</p></main>
+<!-- TOAST: pop-up message area -->
+<div id="toast" role="status" class="fixed bottom-6 left-1/2 z-50 hidden max-w-[90vw] -translate-x-1/2 rounded-2xl bg-neutral-900 px-5 py-3 text-center text-sm font-medium text-white shadow-lg dark:bg-white dark:text-black"></div>
+<!-- Default content, then the admin logic -->
+<script src="js/content.js"></script>
+<script src="js/admin.js"></script>
+</body>
+</html>
