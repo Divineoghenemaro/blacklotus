@@ -1,0 +1,39 @@
+/* Custom styles. Most of the look comes from Tailwind classes written in the HTML and in js/script.js. */
+
+/* Whole page: keep content away from phone notches and home bars. */
+:root {
+  box-sizing: border-box;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+/* Smooth scrolling, and leave room for the sticky top bar when jumping to a section. */
+html {
+  scroll-padding-top: calc(env(safe-area-inset-top, 0px) + 70px);
+  scroll-behavior: smooth;
+}
+
+/* Padding and borders count inside an element's width. */
+* {
+  box-sizing: border-box;
+}
+
+/* "clip" stops sideways scrolling on small screens without breaking the sticky top bar. */
+body {
+  overflow-x: clip;
+  word-wrap: break-word;
+}
+
+/* Pictures never grow wider than their box. */
+svg {
+  max-width: 100%;
+}
+
+/* .rv = "reveal": a section fades in and slides up when it replaces its loading skeleton. */
+.rv {
+  animation: up .5s ease both;
+}
+@keyframes up {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: none; }
+}
