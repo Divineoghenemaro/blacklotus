@@ -587,6 +587,10 @@ function bot(q) {
     q = q.toLowerCase();
     var h = [
         [
+            /hi/,
+            'Hello, how can I assist you?'
+        ],
+        [
             /hour|open|close|when/,
             'We are open Tuesday and Wednesday 4:30 PM to 8 PM, and Thursday to Saturday 12 PM to 8 PM. Closed Sunday and Monday.'
         ],
